@@ -1,0 +1,11 @@
+
+.root {
+}
+
+.wp-admin .upload-field {
+    width: 60%;
+}
+.wp-admin .upload-button {
+    margin: 1px;
+    width: auto;
+}
