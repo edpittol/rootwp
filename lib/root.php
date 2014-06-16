@@ -51,8 +51,6 @@ add_action( 'after_setup_theme', 'root_setup', 11 );
  */
 function root_setup()
 {
-    custom_locale();
-
     Main::init();
 
     do_action( 'root_setup' );
