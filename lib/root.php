@@ -15,7 +15,7 @@ if ( !defined( 'THEME_VERSION' ) )
 // Paths
 
 define( 'THEME_PATH',   TEMPLATEPATH . '/' );
-define( 'LIB_PATH',     THEME_PATH . 'lib/' );
+define( 'LIB_PATH',     dirname( realpath( __FILE__ ) ) . '/' );
 
 // Relevant Informations
 

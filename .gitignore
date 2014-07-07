@@ -5,3 +5,7 @@
 .settings/
 .buildpath
 .project
+
+# tests
+wp-tests-config.php
+tests/phpunit/build
